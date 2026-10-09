@@ -2,7 +2,7 @@
 // Copyright (C) 2025-2026 Murilo Gomes <profmugomes.com.br>
 // SPDX-License-Identifier: MIT
 
-namespace miphanttpl;
+namespace MiPhantTPL;
 
 class miphanttpl
 {
