@@ -73,8 +73,8 @@ Os atributos são passados como **array**:
 
 ```php
 echo $tpl->a(
-    'Acessar site',
-    ['href' => 'https://example.com', 'target' => '_blank']
+    ['href' => 'https://example.com', 'target' => '_blank'],
+    'Acessar site'
 );
 ```
 
@@ -111,8 +111,8 @@ $tpl->addAttributeNoValue(['inert', 'itemscope']);
 
 ```php
 echo $tpl->div(
-    'Conteúdo',
-    ['inert']
+    ['inert'],
+    'Conteúdo'
 );
 ```
 
@@ -165,9 +165,9 @@ Como tudo retorna `string`, é possível aninhar facilmente:
 
 ```php
 echo $tpl->div(
+    ['class' => 'container'],
     $tpl->h2('Título') .
-    $tpl->p('Texto do conteúdo'),
-    ['class' => 'container']
+    $tpl->p('Texto do conteúdo')
 );
 ```
 
