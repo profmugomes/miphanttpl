@@ -206,7 +206,7 @@ echo $tpl->doctype();
 
 ## 👤 Autor
 
-**Murilo Gomes Julio**
+**Murilo Gomes**
 
 🔗 [https://www.profmugomes.com.br](https://www.profmugomes.com.br)
 
