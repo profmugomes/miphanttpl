@@ -9,12 +9,12 @@ class miphanttpl
     private array $naofecha = ['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr'];
     private array $atributosemvalor = ['async', 'autofocus', 'autoplay', 'checked', 'controls', 'default', 'defer', 'disabled', 'download', 'hidden', 'loop', 'multiple', 'muted', 'novalidate', 'open', 'readonly', 'required', 'reversed', 'selected'];
 
-    public function addNotClose(array $values)
+    public function addNotClose(string ...$values)
     {
         $this->naofecha = array_merge($values, $this->naofecha);
     }
 
-    public function addAttributeNoValue(array $values)
+    public function addAttributeNoValue(string ...$values)
     {
         $this->atributosemvalor = array_merge($values, $this->atributosemvalor);
     }
